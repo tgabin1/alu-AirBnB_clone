@@ -215,4 +215,5 @@ class HBNBCommand(cmd.Cmd):
         storage.save()
 
 if __name__ == "__main__":
+    print("Starting HBNB console...")
     HBNBCommand().cmdloop()
